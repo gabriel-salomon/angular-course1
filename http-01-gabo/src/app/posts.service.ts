@@ -1,5 +1,5 @@
 import {Injectable} from "@angular/core";
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {map, catchError} from "rxjs/operators";
 import {Subject, throwError} from "rxjs";
 
@@ -20,14 +20,20 @@ export class PostsService {
     )
     .subscribe(responseData => {
       console.log(responseData);
-    } ,error => {
+    },
+      error => {
       this.error.next(error.message);
     });
   }
 
   fetchPosts() {
     return  this.http
-      .get<{ [key: string]: Post }>('//ng-gabo.firebaseio.com/posts.json')
+      .get<{ [key: string]: Post }>(
+        '//ng-gabo.firebaseio.com/posts.json',
+        {
+          headers: new HttpHeaders({"Custom-Header": 'Hello' })
+        }
+      )
       .pipe(
         map((responseData) => {
           const postsArray: Post[] = [];
