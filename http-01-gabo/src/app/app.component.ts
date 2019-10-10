@@ -1,9 +1,10 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {Subscription} from "rxjs";
+import { map } from 'rxjs/operators';
+import { Subscription } from 'rxjs';
 
-import {Post} from "./post.model";
-import {PostsService} from "./posts.service";
+import { Post } from './post.model';
+import { PostsService } from './posts.service';
 
 @Component({
   selector: 'app-root',
@@ -26,9 +27,9 @@ export class AppComponent implements OnInit, OnDestroy {
     this.isFetching = true;
     this.postsService.fetchPosts().subscribe(
       posts => {
-      this.isFetching = false;
-      this.loadedPosts = posts;
-    },
+        this.isFetching = false;
+        this.loadedPosts = posts;
+        },
       error => {
         this.isFetching = false;
         this.error = error.message;
@@ -45,10 +46,10 @@ export class AppComponent implements OnInit, OnDestroy {
     // Send Http request
     this.isFetching = true;
     this.postsService.fetchPosts().subscribe(
-      posts =>
-      {this.isFetching = false;
-      this.loadedPosts = posts;
-    },
+      posts => {
+        this.isFetching = false;
+        this.loadedPosts = posts;
+        },
       error => {
         this.isFetching = false;
         this.error = error.message;
