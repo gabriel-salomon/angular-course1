@@ -23,6 +23,7 @@ import { AuthInterceptorService } from './auth/auth-interceptor.service';
 import { AlertComponent } from "./shared/alert/alert.component";
 import {AngularComponent} from "./shared/angular/angular.component";
 import {ButtonComponent} from "./shared/angular/button/button.component";
+import {PlaceholderDirective} from "./shared/placeholder/placeholder.directive";
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import {ButtonComponent} from "./shared/angular/button/button.component";
     LoadingSpinnerComponent,
     AlertComponent,
     AngularComponent,
-    ButtonComponent
+    ButtonComponent,
+    PlaceholderDirective
   ],
   imports: [
     BrowserModule,
@@ -59,7 +61,10 @@ import {ButtonComponent} from "./shared/angular/button/button.component";
       multi: true
     }
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    AlertComponent
+  ]
 })
 export class AppModule {}
 
