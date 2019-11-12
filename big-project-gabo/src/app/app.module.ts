@@ -21,9 +21,10 @@ import { AuthComponent } from './auth/auth.component';
 import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 import { AuthInterceptorService } from './auth/auth-interceptor.service';
 import { AlertComponent } from "./shared/alert/alert.component";
-import {AngularComponent} from "./shared/angular/angular.component";
-import {ButtonComponent} from "./shared/angular/button/button.component";
-import {PlaceholderDirective} from "./shared/placeholder/placeholder.directive";
+import { AngularComponent } from "./shared/angular/angular.component";
+import { ButtonComponent } from "./shared/angular/button/button.component";
+import { PlaceholderDirective } from "./shared/placeholder/placeholder.directive";
+import {Angular02Component} from "./shared/angular/angular 0.2/angular02.component";
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import {PlaceholderDirective} from "./shared/placeholder/placeholder.directive";
     LoadingSpinnerComponent,
     AlertComponent,
     AngularComponent,
+    Angular02Component,
     ButtonComponent,
     PlaceholderDirective
   ],
