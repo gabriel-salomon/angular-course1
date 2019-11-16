@@ -24,7 +24,8 @@ import { AlertComponent } from "./shared/alert/alert.component";
 import { AngularComponent } from "./shared/angular/angular.component";
 import { ButtonComponent } from "./shared/angular/button/button.component";
 import { PlaceholderDirective } from "./shared/placeholder/placeholder.directive";
-import {Angular02Component} from "./shared/angular/angular 0.2/angular02.component";
+import { Angular02Component } from "./shared/angular/angular 0.2/angular02.component";
+import {AngularPokedexComponent} from "./shared/angular/angular-pokedex/angular-pokedex.component";
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import {Angular02Component} from "./shared/angular/angular 0.2/angular02.compone
     AlertComponent,
     AngularComponent,
     Angular02Component,
+    AngularPokedexComponent,
     ButtonComponent,
     PlaceholderDirective
   ],
