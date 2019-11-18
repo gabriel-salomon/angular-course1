@@ -22,11 +22,11 @@ import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinne
 import { AuthInterceptorService } from './auth/auth-interceptor.service';
 import { AlertComponent } from "./shared/alert/alert.component";
 import { AngularComponent } from "./shared/angular/angular.component";
-import { ButtonComponent } from "./shared/angular/button/button.component";
-import { PlaceholderDirective } from "./shared/placeholder/placeholder.directive";
 import { Angular02Component } from "./shared/angular/angular 0.2/angular02.component";
 import { AngularPokedexComponent } from "./shared/angular/angular-pokedex/angular-pokedex.component";
-import {AngularFoodsComponent} from "./shared/angular/angular-foods/angular-foods.component";
+import { AngularFoodsComponent } from "./shared/angular/angular-foods/angular-foods.component";
+import { ButtonComponent } from "./shared/angular/button/button.component";
+import { PlaceholderDirective } from "./shared/placeholder/placeholder.directive";
 
 @NgModule({
   declarations: [
@@ -73,28 +73,6 @@ import {AngularFoodsComponent} from "./shared/angular/angular-foods/angular-food
   ]
 })
 export class AppModule {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
