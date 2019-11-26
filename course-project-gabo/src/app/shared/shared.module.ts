@@ -6,15 +6,13 @@ import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.compo
 import { PlaceholderDirective } from './placeholder/placeholder.directive';
 import { DropdownDirective } from './dropdown.directive';
 import { LoggingService } from '../logging.service';
-import { AngularFoodsComponent } from './angular/angular-foods/angular-foods.component';
 
 @NgModule({
   declarations: [
     AlertComponent,
     LoadingSpinnerComponent,
     PlaceholderDirective,
-    DropdownDirective,
-    AngularFoodsComponent
+    DropdownDirective
   ],
   imports: [CommonModule],
   exports: [
@@ -22,7 +20,6 @@ import { AngularFoodsComponent } from './angular/angular-foods/angular-foods.com
     LoadingSpinnerComponent,
     PlaceholderDirective,
     DropdownDirective,
-    AngularFoodsComponent,
     CommonModule
   ],
   entryComponents: [AlertComponent],
