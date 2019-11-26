@@ -32,7 +32,7 @@ export class DataStorageService {
         'https://big-project-gabo.firebaseio.com/recipes.json'
       )
       .pipe(
-        map(recipes => {
+        map (recipes => {
           return recipes.map (recipe => {
             return {
               ...recipe,
