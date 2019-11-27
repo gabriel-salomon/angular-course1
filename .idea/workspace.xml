@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41cd8a69-a3fd-4d62-905c-53e735f9bd8d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/course-project-gabo/src/app/recipes/store/recipe.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/course-project-gabo/src/app/recipes/store/recipe.effects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo/src/app/shared/angular/angular-foods/angular-foods.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/course-project-gabo/src/app/shared/angular/angular-foods/angular-foods.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/how-to-use.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/auth/auth-interceptor.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/auth/auth.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/auth/auth.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/auth/auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/auth/auth.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/auth/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/auth/store/auth.actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/auth/store/auth.effects.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/auth/store/auth.reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/auth/user.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/core.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/logging.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-detail/recipe-detail.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-detail/recipe-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-detail/recipe-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-edit/recipe-edit.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-edit/recipe-edit.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-edit/recipe-edit.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-list/recipe-item/recipe-item.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-list/recipe-item/recipe-item.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-list/recipe-item/recipe-item.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-list/recipe-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-list/recipe-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-list/recipe-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-start/recipe-start.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-start/recipe-start.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe-start/recipe-start.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipe.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipes-resolver.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipes-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipes.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipes.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipes.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/recipes.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/store/recipe.actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/store/recipe.effects.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/recipes/store/recipe.reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shared/alert/alert.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shared/alert/alert.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shared/alert/alert.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shared/dropdown.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shared/ingredient.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shared/loading-spinner/loading-spinner.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shared/loading-spinner/loading-spinner.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shared/placeholder/placeholder.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shared/shared.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shopping-list/shopping-edit/shopping-edit.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shopping-list/shopping-edit/shopping-edit.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shopping-list/shopping-edit/shopping-edit.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shopping-list/shopping-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shopping-list/shopping-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shopping-list/shopping-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shopping-list/shopping-list.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shopping-list/store/shopping-list.actions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/shopping-list/store/shopping-list.reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/app/store/app.reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-project-gabo2/tslint.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UCwByL5NxbB4fp25kzHrZlwohW" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/big-project-gabo" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41cd8a69-a3fd-4d62-905c-53e735f9bd8d" name="Default Changelist" comment="" />
+      <created>1574873754021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574873754021</updated>
+      <workItem from="1574873755947" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
