@@ -37,8 +37,16 @@ import {
         transform: 'translateX(0px) scale(0.5)'
       })),
       transition('normal => highlighted', animate(300)),
-      transition('highlighted => normal', animate(800)),
-      transition('shrunken <=> *', )),
+      transition('highlighted => normal', animate(300)),
+      transition('shrunken <=> *', [
+        style({
+          'background-color': 'orange'
+        }),
+        animate(1000, style({
+          borderRadius: '50px'
+        })),
+        animate(500)
+      ])
     ])
   ]
 })
