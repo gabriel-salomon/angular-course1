@@ -19,3 +19,4 @@ export class AppComponent implements OnInit {
       .subscribe(fetchedPosts => (this.posts = fetchedPosts));
   }
 }
+
