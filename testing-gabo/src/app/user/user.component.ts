@@ -10,7 +10,10 @@ import { DataService } from '../shared/data.service';
   providers: [UserService, DataService]
 })
 export class UserComponent implements OnInit {
-  user: {name: string};
+  user:
+    {
+      name: string
+    };
   isLoggedIn = false;
   data: string;
 
@@ -20,5 +23,4 @@ export class UserComponent implements OnInit {
     this.user = this.userService.user;
     this.dataService.getDetails().then((data: string) => this.data = data);
   }
-
 }
