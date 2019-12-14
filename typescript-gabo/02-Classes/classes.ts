@@ -1,4 +1,4 @@
-ssss// Classes allow us to create 'blueprints' for objects
+// Classes allow us to create 'blueprints' for objects
 // In Angular 2 we use classes a lot. For example to create Components, Services, Directives, Pipes, ...
 
 // How to create a class
@@ -35,4 +35,8 @@ let car = new Car(5);
 car.accelerate();
 car.getSpeed();
 
-console.log(Car.numberOfWheels());
+console.log(
+    Car.numberOfWheels(
+
+    )
+);
